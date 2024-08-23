@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <p>Amit's Calculator</p>
+    <input type="text" id="display" disabled />
+    <div class="buttons">
+      <button onclick="clearDisplay()" class="clear">AC</button>
+      <button onclick="appendOperator('+/-')">+/-</button>
+      <button onclick="appendOperator('%')">%</button>
+      <button onclick="appendOperator('/')">/</button>
+      <button onclick="appendNumber(7)">7</button>
+      <button onclick="appendNumber(8)">8</button>
+      <button onclick="appendNumber(9)">9</button>
+      <button onclick="appendOperator('*')">x</button>
+      <button onclick="appendNumber(4)">4</button>
+      <button onclick="appendNumber(5)">5</button>
+      <button onclick="appendNumber(6)">6</button>
+      <button onclick="appendOperator('-')">-</button>
+      <button onclick="appendNumber(1)">1</button>
+      <button onclick="appendNumber(2)">2</button>
+      <button onclick="appendNumber(3)">3</button>
+      <button onclick="appendOperator('+')">+</button>
+      <button onclick="appendNumber(0)" class="zero">0</button>
+      <button onclick="appendDot()">.</button>
+      <button onclick="calculate()" class="equals">=</button>
+    </div>
+  </div>
+    
+    <script src="main.js"></script>
+</body>
+
+<footer>
+  <div class="social-media">
+    <a href="https://whatsapp.com/channel/0029ValAaYT7z4kfo9H56m1K" target="_blank" class="whatsapp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <a href="https://facebook.com/Amit0prajapati0" target="_blank" class="facebook">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://linkedin.com/in/amit0prajapati0" target="_blank" class="linkedin">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="https://x.com/Amit0prajapati0" target="_blank" class="twitter">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://instagram.com/amit_0_prajapati" target="_blank" class="instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+  <div class="copyright">
+    <p>Copyright © 2024 Amit_Kumar | All Rights Reserved</p>
+  </div>
+</footer>
+</html>

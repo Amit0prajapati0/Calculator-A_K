@@ -1,0 +1,142 @@
+/*===========================================
+CODER Name- Amit Kumar 
+Github- Amit0prajapati0 
+Imstagram- amit_0_prajapati
+===========================================*/
+
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #6891E1;
+  flex-direction: column;
+}
+
+.calculator{
+  background-color: #020E3A;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 2px #000;
+  margin-bottom: 20px;
+}
+
+.calculator p{
+  text-align: center;
+  font-size: 30px;  
+  color: #15EC3E;
+}
+
+#display{
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: right;
+  padding-right: 10px;
+  background-color: #5F5E5E;
+  color: white;
+}
+
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button{
+  background-color: #666;
+  color: white;
+  border: none;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover{
+  background-color: #888;
+  box-shadow: 0 0 20px #00FF08;
+}
+
+button:active{
+  background-color: #444;
+}
+
+.zero{
+  grid-column: span 2;
+}
+
+.clear{
+  background-color: #f39c12;
+  color: white;
+}
+.equals{
+  background-color: #f39c12;
+  color: white;
+}
+
+.equals:hover{
+  background-color: #e67e22;
+}
+
+.social-media{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.social-media a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+  gap: 20px;
+}
+
+.social-media a:hover{
+  background: #0ef;
+  color: #000;
+  box-shadow: 0 0 20px #000;
+}
+
+.whatsapp{
+  background-color: #60F976;
+}
+
+.facebook{
+  background-color: #3A78FB;
+}
+
+.twitter{
+  background-color: #55acee;
+}
+
+.instagram{
+  background-color: rgba(255, 44, 0, 1);
+}
+
+.linkedin{
+  background-color: #0077b5;
+}
+
+.social-media a:hover{
+  opacity: 0.8;
+}
+
+.copyright p{
+ color: #000000;
+}
